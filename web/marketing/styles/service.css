@@ -1,5 +1,9 @@
 /* Service */
 
+#service {
+  background-image: linear-gradient(to bottom, #ffffff 50%, 51%, #020e35);
+}
+
 .service__article {
   display: flex;
   justify-content: space-between;

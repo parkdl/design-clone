@@ -43,13 +43,13 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 50px auto;
   text-align: center;
 }
 
 section {
-  padding: 50px 0;
+  padding: 50px 100px;
 }
 
 footer {
@@ -79,28 +79,24 @@ button {
 h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
-  color: var(--color-black);
   margin: 16px 0;
 }
 
 h2 {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  color: var(--color-black);
   margin: 8px 0 0 0;
 }
 
 h3 {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
   margin: 8px 0;
 }
 
 h4 {
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
   margin: 4px 0;
 }
 
