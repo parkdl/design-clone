@@ -1,0 +1,9 @@
+#about {
+  text-align: center;
+}
+
+.about__content {
+  width: 800px;
+  margin: auto;
+  font-size: var(--font-small);
+}
