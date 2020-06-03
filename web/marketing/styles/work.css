@@ -20,6 +20,11 @@
   padding-right: 25px;
 }
 
+.work__item p {
+  padding-top: 25px;
+  width: 480px;
+}
+
 button.portfolio {
   width: 140px;
   height: 40px;

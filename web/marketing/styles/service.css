@@ -1,7 +1,18 @@
 /* Service */
 
 #service {
-  background-image: linear-gradient(to bottom, #ffffff 50%, 51%, #020e35);
+  position: relative;
+}
+
+#service::before {
+  position: absolute;
+  background-color: #020e35;
+  top: 50%;
+  right: 0%;
+  height: 51%;
+  width: 100%;
+  content: "";
+  z-index: -1;
 }
 
 .service__article {

@@ -56,5 +56,10 @@
 }
 
 .header--left {
-  margin-left: 130px;
+  margin-left: 100px;
+  width: 50%;
+}
+
+.header--right {
+  width: 50%;
 }

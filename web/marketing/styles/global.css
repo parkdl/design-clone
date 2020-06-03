@@ -42,6 +42,11 @@ body {
   margin: 0;
 }
 
+header {
+  max-width: 1400px;
+  margin: auto;
+}
+
 main {
   max-width: 1400px;
   margin: 50px auto;
@@ -72,6 +77,10 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+p {
+  margin: 0;
 }
 
 /* Typography */

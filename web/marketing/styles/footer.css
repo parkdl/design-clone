@@ -1,0 +1,67 @@
+/* Contact */
+
+#footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__main {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer--left,
+.footer--right {
+  width: 50%;
+}
+
+.footer--left p {
+  font-size: var(--font-regular);
+}
+
+.footer--left h1 {
+  text-align: left;
+}
+
+.footer--left h1 span {
+  color: #e73587;
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+}
+
+.footer--right form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.footer--right form label {
+  font-size: var(--font-small);
+  margin-bottom: 10px;
+}
+
+.footer--right form input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.footer--right form textarea {
+  height: 150px;
+}
+
+.footer--right form button {
+  margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  color: var(--color-white);
+  background-image: linear-gradient(to right, #e0358f, #8c32f0);
+}
+
+.copyRight {
+  background-color: #020e35;
+  color: var(--color-white);
+  text-align: left;
+  padding-left: 130px;
+}
